@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-	<name>[RF] Advanced Bridges [1.0]</name>
+	<name>[RF] Advanced Bridges [1.1]</name>
 	<author>Rainbeau Flambe</author>
-	<url>https://ludeon.com/forums/index.php?topic=46165</url>
+	<url>https://github.com/firefoxpdm/Rainbeau-s-Advanced-Bridges</url>
 	  <supportedVersions>
         <li>1.1</li>
     </supportedVersions>
-	<description>(Last update: 12/05/2018)
+	<description>(Last update: 2020-03-10)
+	
+Originally from https://ludeon.com/forums/index.php?topic=46165
 
 "Advanced Bridges," as the name so subtly suggests, allows you to build bridges which are, well, a bit more advanced than those available in vanilla RimWorld. (Well, technically, you could also create piers or even a boardwalk. It's really up to you.) All you need is wood, stone or metal. And a bit of extra steel for reinforcement if you're building over deep water. (Yes, this mod allows you to build bridges over deep water as well as over shallow water.)
 
