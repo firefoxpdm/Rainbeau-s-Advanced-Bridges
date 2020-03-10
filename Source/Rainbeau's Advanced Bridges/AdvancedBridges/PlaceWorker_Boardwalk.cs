@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using Verse;
 
 namespace Rainbeau_s_Advanced_Bridges.AdvancedBridges
@@ -33,7 +32,7 @@ namespace Rainbeau_s_Advanced_Bridges.AdvancedBridges
             {
                 return true;
             }
-            string waterNear = "no";
+            bool waterNear = false;
             for (int i = -1; i < 2; i++)
             {
                 for (int j = -1; j < 2; j++)
@@ -44,12 +43,12 @@ namespace Rainbeau_s_Advanced_Bridges.AdvancedBridges
                     string terrainCheck = map.terrainGrid.TerrainAt(newSpot).defName;
                     if (terrainCheck.Contains("Water") || terrainCheck.Equals("Marsh") || terrainCheck.Contains("BridgeMarsh") || terrainCheck.Contains("Mud") || terrainCheck.Contains("MarshyTerrain"))
                     {
-                        waterNear = "yes";
+                        waterNear = true;
                         break;
                     }
                 }
             }
-            if (waterNear == "no")
+            if (waterNear)
             {
                 for (int i = -2; i < 3; i++)
                 {
@@ -61,13 +60,13 @@ namespace Rainbeau_s_Advanced_Bridges.AdvancedBridges
                         string terrainCheck = map.terrainGrid.TerrainAt(newSpot).defName;
                         if (terrainCheck.Contains("Water") || terrainCheck.Equals("Marsh") || terrainCheck.Contains("BridgeMarsh") || terrainCheck.Contains("Mud") || terrainCheck.Contains("MarshyTerrain"))
                         {
-                            waterNear = "yes";
+                            waterNear = true;
                             break;
                         }
                     }
                 }
             }
-            if (waterNear == "no")
+            if (waterNear)
             {
                 for (int i = -3; i < 4; i++)
                 {
@@ -79,13 +78,13 @@ namespace Rainbeau_s_Advanced_Bridges.AdvancedBridges
                         string terrainCheck = map.terrainGrid.TerrainAt(newSpot).defName;
                         if (terrainCheck.Contains("Water") || terrainCheck.Equals("Marsh") || terrainCheck.Contains("BridgeMarsh") || terrainCheck.Contains("Mud") || terrainCheck.Contains("MarshyTerrain"))
                         {
-                            waterNear = "yes";
+                            waterNear = true;
                             break;
                         }
                     }
                 }
             }
-            if (waterNear == "yes")
+            if (waterNear)
             {
                 return true;
             }
