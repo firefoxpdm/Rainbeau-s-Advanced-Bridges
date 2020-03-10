@@ -6,7 +6,7 @@
 		<label>Basic Bridge</label>
 		<description>A basic wooden pier-style bridge. Useful for crossing rivers without getting your feet wet. Can be built over shallow water, marsh or mud.</description>
 		<category>Building</category>
-		<thingClass>RBB_Code.Building_Bridge</thingClass>
+		<thingClass>Rainbeau_s_Advanced_Bridges.AdvancedBridges.Building_Bridge</thingClass>
 		<graphicData>
 			<texPath>Bridge_Atlas_Planks</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -50,7 +50,7 @@
 		<terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
 		<pathCost>2</pathCost>
 		<placeWorkers>
-			<li>RBB_Code.PlaceWorker_BasicBridge</li>
+			<li>Rainbeau_s_Advanced_Bridges.AdvancedBridges.PlaceWorker_BasicBridge</li>
 		</placeWorkers>
 		<building>
 			<isEdifice>false</isEdifice>
@@ -62,7 +62,7 @@
 		<label>Deep Water Bridge</label>
 		<description>A reinforced wooden bridge, designed to allow passage across deeper water. A bit harder to build than a basic bridge. Can only be built over deep water.</description>
 		<category>Building</category>
-		<thingClass>RBB_Code.Building_Bridge</thingClass>
+		<thingClass>Rainbeau_s_Advanced_Bridges.AdvancedBridges.Building_Bridge</thingClass>
 		<graphicData>
 			<texPath>Bridge_Atlas_Planks</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -109,7 +109,7 @@
 		<terrainAffordanceNeeded>BridgeableDeep</terrainAffordanceNeeded>
 		<pathCost>2</pathCost>
 		<placeWorkers>
-			<li>RBB_Code.PlaceWorker_DeepWaterBridge</li>
+			<li>Rainbeau_s_Advanced_Bridges.AdvancedBridges.PlaceWorker_DeepWaterBridge</li>
 		</placeWorkers>
 		<building>
 			<isEdifice>false</isEdifice>
@@ -121,7 +121,7 @@
 		<label>Boardwalk</label>
 		<description>It looks like a wooden bridge, but it sits over land. Use it to put aesthetic finishing touches on your bridges or piers. Can be built over land in close proximity to water.</description>
 		<category>Building</category>
-		<thingClass>RBB_Code.Building_Bridge</thingClass>
+		<thingClass>Rainbeau_s_Advanced_Bridges.AdvancedBridges.Building_Bridge</thingClass>
 		<graphicData>
 			<texPath>Bridge_Atlas_Planks</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -165,7 +165,7 @@
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<pathCost>2</pathCost>
 		<placeWorkers>
-			<li>RBB_Code.PlaceWorker_Boardwalk</li>
+			<li>Rainbeau_s_Advanced_Bridges.AdvancedBridges.PlaceWorker_Boardwalk</li>
 		</placeWorkers>
 		<building>
 			<isEdifice>false</isEdifice>
@@ -177,7 +177,7 @@
 		<label>Heavy Bridge</label>
 		<description>A heavy-duty bridge. Can be built from stone or metal over shallow water, marsh or mud.</description>
 		<category>Building</category>
-		<thingClass>RBB_Code.Building_Bridge_Stone</thingClass>
+		<thingClass>Rainbeau_s_Advanced_Bridges.AdvancedBridges.Building_Bridge_Stone</thingClass>
 		<graphicData>
 			<texPath>Bridge_Atlas_Stone</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -222,7 +222,7 @@
 		<terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
 		<pathCost>2</pathCost>
 		<placeWorkers>
-			<li>RBB_Code.PlaceWorker_BasicBridge</li>
+			<li>Rainbeau_s_Advanced_Bridges.AdvancedBridges.PlaceWorker_BasicBridge</li>
 		</placeWorkers>
 		<building>
 			<isEdifice>false</isEdifice>
@@ -237,7 +237,7 @@
 		<label>Heavy Deep Water Bridge</label>
 		<description>A reinforced heavy-duty bridge, designed to allow passage across deeper water. Can be built from stone or metal, but only over deep water.</description>
 		<category>Building</category>
-		<thingClass>RBB_Code.Building_Bridge_Stone</thingClass>
+		<thingClass>Rainbeau_s_Advanced_Bridges.AdvancedBridges.Building_Bridge_Stone</thingClass>
 		<graphicData>
 			<texPath>Bridge_Atlas_Stone</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -285,7 +285,7 @@
 		<terrainAffordanceNeeded>BridgeableDeep</terrainAffordanceNeeded>
 		<pathCost>2</pathCost>
 		<placeWorkers>
-			<li>RBB_Code.PlaceWorker_DeepWaterBridge</li>
+			<li>Rainbeau_s_Advanced_Bridges.AdvancedBridges.PlaceWorker_DeepWaterBridge</li>
 		</placeWorkers>
 		<building>
 			<isEdifice>false</isEdifice>
@@ -300,7 +300,7 @@
 		<label>Heavy Boardwalk</label>
 		<description>It looks like a bridge, but it sits over land. Use it to put aesthetic finishing touches on your bridges or piers. Can be built from stone or metal over land in close proximity to water.</description>
 		<category>Building</category>
-		<thingClass>RBB_Code.Building_Bridge_Stone</thingClass>
+		<thingClass>Rainbeau_s_Advanced_Bridges.AdvancedBridges.Building_Bridge_Stone</thingClass>
 		<graphicData>
 			<texPath>Bridge_Atlas_Stone</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -345,7 +345,7 @@
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<pathCost>2</pathCost>
 		<placeWorkers>
-			<li>RBB_Code.PlaceWorker_Boardwalk</li>
+			<li>Rainbeau_s_Advanced_Bridges.AdvancedBridges.PlaceWorker_Boardwalk</li>
 		</placeWorkers>
 		<building>
 			<isEdifice>false</isEdifice>
@@ -360,7 +360,7 @@
 		<label>watergazing spot</label>
 		<description>A spot from which pawns can just relax and watch the water. Place on a bridge or pier next to water.</description>
 		<category>Building</category>
-		<thingClass>RBB_Code.Building_WatergazingSpot</thingClass>
+		<thingClass>Rainbeau_s_Advanced_Bridges.AdvancedBridges.Building_WatergazingSpot</thingClass>
 		<graphicData>
 			<texPath>WGSpot</texPath>
 			<shaderType>MetaOverlay</shaderType>
@@ -393,7 +393,7 @@
 		</building>
 		<terrainAffordanceNeeded>Scenic</terrainAffordanceNeeded>
 		<placeWorkers>
-			<li>RBB_Code.PlaceWorker_WatergazingSpot</li>
+			<li>Rainbeau_s_Advanced_Bridges.AdvancedBridges.PlaceWorker_WatergazingSpot</li>
 		</placeWorkers>
 	</ThingDef>
 	

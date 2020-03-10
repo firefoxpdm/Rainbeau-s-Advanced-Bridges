@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Rainbeau_s_Advanced_Bridges</RootNamespace>
     <AssemblyName>Rainbeau%27s Advanced Bridges</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <TargetFrameworkProfile />
     <NoWin32Manifest>False</NoWin32Manifest>
@@ -42,6 +42,9 @@
     <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>..\..\Assemblies\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
@@ -59,9 +62,21 @@
       <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyClass.cs" />
+    <Compile Include="AdvancedBridges\Building_Bridge.cs" />
+    <Compile Include="AdvancedBridges\Building_Bridge_Stone.cs" />
+    <Compile Include="AdvancedBridges\Building_WatergazingSpot.cs" />
+    <Compile Include="AdvancedBridges\PlaceWorker_BasicBridge.cs" />
+    <Compile Include="AdvancedBridges\PlaceWorker_Boardwalk.cs" />
+    <Compile Include="AdvancedBridges\PlaceWorker_DeepWaterBridge.cs" />
+    <Compile Include="AdvancedBridges\PlaceWorker_FloorBase.cs" />
+    <Compile Include="AdvancedBridges\PlaceWorker_VBridgeBase.cs" />
+    <Compile Include="AdvancedBridges\PlaceWorker_WatergazingSpot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

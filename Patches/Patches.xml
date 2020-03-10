@@ -175,7 +175,7 @@
 		<xpath>Defs/TerrainDef[defName = "Bridge"]</xpath>
 		<value>
 			<placeWorkers>
-				<li>RBB_Code.PlaceWorker_VBridgeBase</li>
+				<li>Rainbeau_s_Advanced_Bridges.AdvancedBridges.PlaceWorker_VBridgeBase</li>
 			</placeWorkers>
 		</value>
 	</Operation>
@@ -195,7 +195,7 @@
 		<xpath>Defs/TerrainDef[@Name = "FloorBase"]</xpath>
 		<value>
 			<placeWorkers>
-				<li>RBB_Code.PlaceWorker_FloorBase</li>
+				<li>Rainbeau_s_Advanced_Bridges.AdvancedBridges.PlaceWorker_FloorBase</li>
 			</placeWorkers>
 		</value>
 	</Operation>
@@ -205,7 +205,7 @@
 		<xpath>Defs/StuffedFloors.FloorTypeDef[@Name = "StuffedFloorsBase"]</xpath>
 		<value>
 			<placeWorkers>
-				<li>RBB_Code.PlaceWorker_FloorBase</li>
+				<li>Rainbeau_s_Advanced_Bridges.AdvancedBridges.PlaceWorker_FloorBase</li>
 			</placeWorkers>
 		</value>
 	</Operation>
