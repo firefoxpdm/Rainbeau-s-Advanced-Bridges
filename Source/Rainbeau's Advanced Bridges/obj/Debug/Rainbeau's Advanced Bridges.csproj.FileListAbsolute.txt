@@ -1,6 +1,0 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RF - Basic Bridges\Assemblies\Rainbeau's Advanced Bridges.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RF - Basic Bridges\Source\Rainbeau's Advanced Bridges\obj\Debug\Rainbeau's Advanced Bridges.csprojResolveAssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RF - Basic Bridges\Source\Rainbeau's Advanced Bridges\obj\Debug\Rainbeau's Advanced Bridges.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RF - Advanced Bridges\Assemblies\Rainbeau's Advanced Bridges.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RF - Advanced Bridges\Source\Rainbeau's Advanced Bridges\obj\Debug\Rainbeau's Advanced Bridges.csprojResolveAssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RF - Advanced Bridges\Source\Rainbeau's Advanced Bridges\obj\Debug\Rainbeau's Advanced Bridges.dll
